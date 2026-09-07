@@ -5,8 +5,8 @@ frameworks. Proyecto individual del bootcamp de desarrollo web de JM Factoría.
 
 ## Enlaces
 
-- **Página publicada:** https://TU-USUARIO.github.io/LandingPageAboutMe/
-- **Repositorio:** https://github.com/TU-USUARIO/LandingPageAboutMe
+- **Página publicada:**  https://oscarperezgr.github.io/aboutMeVanilla/
+- **Repositorio:** https://github.com/oscarperezGR/aboutMeVanilla.git
 
 ## Captura
 
@@ -68,12 +68,12 @@ LandingPageAboutMe/
 ## Cómo verlo en local
 
 ```bash
-git clone https://github.com/TU-USUARIO/LandingPageAboutMe.git
-cd LandingPageAboutMe
+git clone https://github.com/oscarperezGR/aboutMeVanilla.git
+cd AboutMeVanilla
 ```
 
 Abre `index.html` en el navegador. No requiere instalación ni servidor.
 
 ## Autoría
 
-Nombre Apellido Apellido — bootcamp de desarrollo web, 2026.
+Oscar Pérez — bootcamp de desarrollo web, 2026.
