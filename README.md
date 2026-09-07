@@ -10,7 +10,8 @@ frameworks. Proyecto individual del bootcamp de desarrollo web de JM Factoría.
 
 ## Captura
 
-![Vista general de la página](assets/screenshot.jpg)
+<img width="952" height="444" alt="LandingPageAboutMe" src="https://github.com/user-attachments/assets/ce2883e6-0308-4f7b-b71a-e9112a7b2fea" />
+
 
 ## Descripción
 
