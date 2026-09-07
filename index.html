@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí | Nombre Apellido Apellido</title>
+  <meta name="description" content="Página personal de Nombre Apellido: origen, aficiones, estudios y trayectoria.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+
+  <header class="site-header">
+    <a class="site-header__brand" href="#top">Nombre Apellido</a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul class="main-nav__list">
+        <li><a class="main-nav__link" href="#origin">Origen</a></li>
+        <li><a class="main-nav__link" href="#hobbies">Aficiones</a></li>
+        <li><a class="main-nav__link" href="#studies">Estudios</a></li>
+        <li><a class="main-nav__link" href="#journey">Trayectoria</a></li>
+        <li><a class="main-nav__link" href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__text">
+        <p class="hero__greeting">Hola, soy</p>
+        <h1 class="hero__title" id="hero-title">Nombre Apellido Apellido</h1>
+        <p class="hero__lead">
+          Estudiante de desarrollo web. Aprendiendo a construir cosas que
+          funcionan en el navegador, una etiqueta a la vez.
+        </p>
+      </div>
+      <figure class="hero__figure">
+        <img class="hero__photo" src="assets/profilePhoto.jpg"
+             alt="Retrato de Nombre Apellido mirando a cámara">
+      </figure>
+    </section>
+
+    <section class="profile-section" id="origin" aria-labelledby="origin-title">
+      <div class="profile-section__text">
+        <h2 class="profile-section__title" id="origin-title">De dónde vengo</h2>
+        <p>
+          Nací en Ciudad, País, y tengo nacionalidad ejemplo. Crecí en un barrio
+          donde la calle era el patio de todos y donde aprendí a apañármelas con
+          lo que había.
+        </p>
+        <p>
+          Ese sitio sigue marcando cómo hago las cosas: sin prisa, mirando bien
+          antes de decidir y preguntando cuando algo no me cuadra.
+        </p>
+      </div>
+      <figure class="profile-section__figure">
+        <img class="profile-section__photo" src="assets/birthplacePhoto.jpg"
+             alt="Vista de la ciudad donde nací al atardecer">
+      </figure>
+    </section>
+
+    <section class="profile-section profile-section--reverse" id="hobbies" aria-labelledby="hobbies-title">
+      <div class="profile-section__text">
+        <h2 class="profile-section__title" id="hobbies-title">Lo que hago cuando no estudio</h2>
+        <p>
+          Cocino sin receta, salgo a caminar largo los domingos y llevo años
+          coleccionando discos que casi nadie me pide prestados.
+        </p>
+        <p>
+          Son aficiones tranquilas, pero me enseñan lo mismo que programar:
+          empezar por lo simple, probar, y repetir hasta que sale.
+        </p>
+      </div>
+      <figure class="profile-section__figure">
+        <img class="profile-section__photo" src="assets/hobbiesPhoto.jpg"
+             alt="Mesa de cocina con ingredientes preparados para cocinar">
+      </figure>
+    </section>
+
+    <section class="profile-section" id="studies" aria-labelledby="studies-title">
+      <div class="profile-section__text">
+        <h2 class="profile-section__title" id="studies-title">Mis estudios</h2>
+        <p>
+          Estudié Nombre de la Titulación en Nombre del Centro, en Ciudad, entre
+          20XX y 20XX. Allí descubrí que lo que de verdad me interesaba era
+          resolver problemas, no memorizarlos.
+        </p>
+        <p>
+          Ahora estoy en el bootcamp de desarrollo web de Nombre de la Escuela,
+          aprendiendo HTML, CSS, JavaScript y todo lo que viene detrás.
+        </p>
+      </div>
+      <figure class="profile-section__figure">
+        <img class="profile-section__photo" src="assets/studiesPhoto.jpg"
+             alt="Aula luminosa con mesas y ordenadores portátiles abiertos">
+      </figure>
+    </section>
+
+    <section class="profile-section profile-section--reverse" id="journey" aria-labelledby="journey-title">
+      <div class="profile-section__text">
+        <h2 class="profile-section__title" id="journey-title">Mi recorrido</h2>
+        <p>
+          Trabajé varios años en un sector que no tenía nada que ver con esto.
+          Aprendí a tratar con gente, a organizarme y a aguantar días difíciles,
+          pero echaba en falta construir algo mío.
+        </p>
+        <p>
+          El cambio empezó con un curso corto por curiosidad y terminó con la
+          decisión de dedicarme a esto en serio. Sigo en ello, y de momento la
+          curiosidad no se ha apagado.
+        </p>
+      </div>
+      <figure class="profile-section__figure">
+        <img class="profile-section__photo" src="assets/journeyPhoto.jpg"
+             alt="Escritorio con un cuaderno de notas y un ordenador encendido">
+      </figure>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <h2 class="site-footer__title">¿Hablamos?</h2>
+    <p class="site-footer__text">
+      Escríbeme y te contesto. Me interesa cualquier proyecto del que pueda
+      aprender algo.
+    </p>
+    <ul class="site-footer__links">
+      <li><a class="site-footer__link" href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a></li>
+      <li><a class="site-footer__link" href="https://github.com/tuusuario">GitHub</a></li>
+      <li><a class="site-footer__link" href="https://www.linkedin.com/in/tuusuario">LinkedIn</a></li>
+    </ul>
+    <p class="site-footer__legal">Nombre Apellido Apellido, 2026</p>
+  </footer>
+
+</body>
+</html>
